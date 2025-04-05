@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include <iomanip> // for setw()
+#include <iomanip> // for setw() 
 using namespace std;
 
 
@@ -29,10 +29,10 @@ void printmatrix(int arr[3][3]) {
 
         for (int j = 0; j < 3; j++) 
         {
-            cout << stew(3) << arr[i][j] << " ";     
+            cout << setw(3) << arr[i][j] << " ";     
         }
 
-        cout endl;  
+        cout << endl;  
     }
 }
 int main()
